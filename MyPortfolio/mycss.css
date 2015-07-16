@@ -1,0 +1,419 @@
+body{
+	min-width: 700px;
+	max-height: 1000px;
+}
+.myprofile
+{
+	width: 100%;
+	display: none;
+	height: auto;
+	
+}
+#pppp{
+	text-align: center;
+	font-family: cursive;
+	display: none;
+}
+#welcome{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: cursive;
+	cursor:  pointer;
+}
+#welcome:hover{
+	font-size: 20px;
+	color: green;
+	opacity: 0.7;
+	cursor:  pointer;
+}
+
+#pageone{
+	height: auto;
+}
+.tinted-image {
+  width: 100%;
+  height: 100%;
+  bottom:0px;
+  top:-20px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 0px;
+  background-size: no-repeat;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+    url(Images/imgg.jpg)
+}
+.tinted-image .container
+{
+	margin: auto;
+	
+	position: relative;
+	width: 100%;
+  height: 500px;
+  text-align: center;
+  
+
+}
+blockquote {
+	position: relative;
+  background:black;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-bottom: 0px;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 6em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+
+}
+blockquote p{
+	display: inline;
+	font-size: 30px;
+}
+#name{
+	font-family: 
+
+
+}
+#tot{
+	display: inline;
+	width:40px;
+	 height:40px;
+}
+.slideimg{
+	position: relative;
+	margin-bottom: 5px;
+	max-width: 100%;
+	height: 60px; 
+	padding-bottom: 40px;
+}
+.slidedownimg
+{
+	
+	position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+	
+	width: 50px;
+	height: 50px;
+	
+	
+
+}
+.tinted-image .container h1{
+	
+  	color: #eee;
+  
+	font-size: 80px;
+
+}
+.tinted-image .container h3
+{
+	
+	color:#4B0082;'
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	font: 400 70px/1.5 'Pacifico', Helvetica, sans-serif;
+}
+.profile{
+	text-align: center;
+	background-color: #eee;
+	max-width: 100%;
+	margin-bottom: 10px;
+	font-size: 20px;
+    font-family: Papyrus;
+    padding: 10px;
+}
+.leftf
+{
+	float: left;
+}
+.rightf{
+	float: right;
+}
+.slide.in {
+	    -webkit-transform: translateX(0);
+	    -webkit-animation-name: slideinfromright;
+	}
+.text{
+	font-size: 30px;
+}
+nav{
+	position: fixed;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+#pageone .container-fluid{
+	position: relative;
+	left:0px;
+	right: 0px;
+	top:0px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+#fdiv{
+	position: relative;
+	top:50px;
+}
+#Info,#Skills{
+position: relative;
+	text-align: center;
+}
+#pp,#sa{
+	background-color: black;
+	padding: 5px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 50px;
+	max-width: auto;
+	margin:auto;
+	font-family: Consolas;
+	font-size: 20px;
+}
+#contact{
+	position: relative;
+	height: 50px;
+	padding: 5px;
+	background-color: red;
+}
+#f{
+	position: relative;
+	top:100px;
+}
+#pagetwo
+{
+	position: absolute;
+	background-image: url('Images/bg.jpg');
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height:auto;
+	margin: auto;
+	background-size: cover;
+	
+	
+}
+img{
+	position: relative;
+    width: 100%;
+	height: 500px;
+	background-repeat: :no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+#WE{
+	position: relative;
+	top:10px;
+}
+#pagetwo p{
+	font-family: Garamond;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-align: justify;
+}
+ul li
+{
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: Consolas;
+	font-size: 20px;
+}
+li #menu
+{
+	float: right;
+}
+
+.ui-dialog-contain {
+	width: 92.5%;
+	max-width: 500px;
+	height: 400px;
+	margin: 10% auto 15px auto;
+	padding: 10px 0;
+	position: relative;
+	top: -15px;
+	font-size: 30px;
+	font-family: Courier New;
+	color: white;
+	text-align: center;
+}
+div #slidedown
+{
+	max-width:"10px";
+	 height:"10px";
+	 position: relative;
+	 margin:auto;
+}
+#homepage a
+{
+	color:white;
+	font-size: 18px;
+	font-family: Papyrus;
+}
+.workrap{
+	position: relative;
+	top:10px;
+	max-width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #eee;
+	height: auto;
+}
+.IT{
+	text-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+}
+.ITcon{
+	position: relative;
+	max-width:100%;
+}
+.ITcon a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.ITcon a:hover{
+text-decoration: none;
+color: green;
+}
+.IT img {
+	height: 200px;
+	max-width: 200px;
+	float:left;
+	margin: -10px 10px;
+	cursor: pointer;
+}
+.firstpane{
+	margin-top: 10px;
+	position: relative;
+	padding-bottom: 30px;
+}
+.firstpage{
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+}
+.separate
+{
+position: relative;
+top:10px;
+bottom:10px;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.program,.elect
+{ 
+	display: inline-block;
+	padding-right: 30px;
+	margin-right:auto;
+	margin-left: auto;
+	position: relative;
+}
+.programme,.elec1{
+	position: relative;
+	margin-right:auto;
+	margin-left: auto;
+	padding: 10px;
+}
+#elecp
+{
+	position: relative;
+	max-width:70%;
+	height: auto;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+}
+.labs{
+	
+	position: relative;
+	max-width: 80%;
+	height: auto;
+	margin-right:auto;
+	margin-left: auto;
+}
+.labs .lab a
+{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-family: Garamond;
+	font-size: 18px;
+}
+.labs .lab .labtext
+{
+	text-align: center;
+	color: black;
+	font-family: Garamond;
+	font-size: 18px;
+}
+.labs .lab .labtext:hover
+{
+	font-size: 20px;
+}
+.lab{
+display: inline-block;
+position: relative;
+margin-right:auto;
+	margin-left: auto;
+}
+p .labtext{
+	color:black;
+	text-align: center;
+}
+.container,#myskills{
+	position: relative;
+	top:30px;
+	bottom:10px;
+}
+
+#myskills .row .col-md-3 img{
+	position: relative;
+	height: 150px;
+	cursor: pointer;
+}
+
+.container .row .col-md-3 img,.container .row .col-md-4 img,
+.container .row .col-md-6 img{
+	position: relative;
+	height: 150px;
+	cursor: pointer;
+}
+.container .row .col-md-4 .text{
+	font-size: 33px;
+}
+
+#myskills,#achieve,#Projects{
+	max-width:70%;
+}
+.container h1, .achievement h1{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Copperplate;
+}
+
+#emp{
+	font-size: 22px;
+	color:red;
+}
+#ach,#proj{
+	padding-bottom: 40px;
+}

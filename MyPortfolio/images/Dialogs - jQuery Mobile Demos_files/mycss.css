@@ -1,0 +1,216 @@
+ body{
+	margin: 0; 
+	padding: 0;
+	background-color: black;
+	z-index: 2;
+	
+}
+nav{
+	position: fixed;
+}
+.myslider{
+	position: relative;
+	top:20px;
+	
+}
+.myslider  container-fluid
+{
+	top:10px;
+position:relative;
+margin-right:auto;
+margin-left:auto;
+
+}
+#left{
+height:500px;
+width:100px;
+position:absolute;
+left:0px;
+top:0px;
+
+}
+#right{
+height:500px;
+width:100px;
+position:absolute;
+right:5px;
+top:0px;
+
+}
+.prev{
+height:50px;
+width:50px;
+position:absolute;
+top:50%;
+left:5px;
+background-color: black;
+}
+.next{
+height:50px;
+width:50px;
+position:absolute;
+top:50%;
+right:0px;
+}
+img{
+	position: relative;
+    width: 100%;
+	height: 500px;
+	background-repeat: :no-repeat;
+	background-size: cover;
+}
+
+#fdiv{
+	position: relative;
+	top:50px;
+}
+#Info,#Skills{
+position: relative;
+	text-align: center;
+}
+#pp,#sa{
+	background-color: black;
+	padding: 5px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 50px;
+	max-width: auto;
+	margin:auto;
+	font-family: Consolas;
+	font-size: 20px;
+}
+#contact{
+	position: relative;
+	height: 50px;
+	padding: 5px;
+	background-color: red;
+}
+#f{
+	position: relative;
+	top:100px;
+}
+#pagetwo
+{
+	position: absolute;
+	background-image: url('Images/bg.jpg');
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height:auto;
+	margin: auto;
+	background-size: cover;
+	
+	
+}
+#WE{
+	position: relative;
+	top:10px;
+}
+#pagetwo p{
+	font-family: Garamond;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-align: justify;
+}
+ul li
+{
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: Consolas;
+	font-size: 20px;
+}
+li #menu
+{
+	float: right;
+}
+
+.ui-dialog-contain {
+	width: 92.5%;
+	max-width: 500px;
+	height: 400px;
+	margin: 10% auto 15px auto;
+	padding: 10px 0;
+	position: relative;
+	top: -15px;
+	font-size: 30px;
+	font-family: Courier New;
+	color: white;
+	text-align: center;
+}
+div #slidedown
+{
+	width:"10px";
+	 height:"10px";
+	 position: relative;
+	 margin:auto;
+}
+.workrap{
+	position: relative;
+	top:10px;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #eee;
+	height: auto;
+}
+.program,.elect
+{ 
+	display: inline-block;
+	padding-right: 30px;
+	margin-right:auto;
+	margin-left: auto;
+	position: relative;
+}
+.programme,.elec1{
+	position: relative;
+	margin-right:auto;
+	margin-left: auto;
+	padding: 10px;
+}
+#elecp
+{
+	position: relative;
+	width:70%;
+	height: auto;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+}
+.labs{
+	
+	position: relative;
+	width: 80%;
+	height: auto;
+	margin-right:auto;
+	margin-left: auto;
+}
+.lab{
+display: inline-block;
+position: relative;
+margin-right:auto;
+	margin-left: auto;
+}
+p .labtext{
+	color:black;
+	text-align: center;
+}
+.myskill{
+	position: relative;
+	top:30px;
+}
+
+
+.myskill .row .col-md-3 img{
+	position: relative;
+	height: 150px;
+}
+h1{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Copperplate;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="Images/icon.ico" />
+<title>Oyindamola- My Profile</title>
+<meta charset="utf-8">
+<meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mycss.css">
+<link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".slidedownimg").mouseover(function(){
+        $(".slidedownimg").animate({'marginTop': '15px'}, "slow");
+
+    });
+    
+});
+
+$(document).ready(function(){
+    $(".slidedownimg").click(function(){
+
+        $(".myprofile").slideToggle(2000);
+    });
+    
+});
+$(document).ready(function(){
+    $(".slidedownimg").mouseover(function(){
+ $("#pppp").fadeIn(1000);
+    });
+    
+});
+
+</script>
+</head>
+<body >
+<div data-role="page" id="pageone">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span>  Omotuyi Oyindamola</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"><span class	="glyphicon glyphicon-home">  Home</a></li>
+        <li><a href="#pagetwo" data-transition="pop">About Me</a></li>
+        <li><a href="#contact" data-transition="pop" data-close-btn="right"  >Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="tinted-image">
+    <div class="container">
+     <h1>OMOTUYI OYINDAMOLA</h1>
+      <h3>The Profile of a Sui Generis Programmer</h3>     
+    </div>
+    </div>   
+      <div class="slideicon">
+      <div class="container-fluid slideimg">
+        <img src="Images\down.jpg" class ="slidedownimg">
+        <p id = "pppp">Click to Slide Up/down </p>
+      </div>
+    </div>
+    <div class="myprofile">
+        <div class="container-fluid profile">
+          <div class="row" >
+            <div class="col-xs-6 leftf"><strong>Walking down the staircase, I could hear her gentle voice. Her countenance like that of the sun. She is so cool and fun to be with. A saying goes thus "Skills with attitude and love for others growth can take you far", this is her watchword. I am overwhelmed by her kind gestures and passionate heart. Hardworking and ready to learn are part of her.</strong><br /> <br /> Who is this person?<img src="Images\tot.jpg" id ="tot"> <br /><br /> She is <span id = "name">Omotuyi Oyindamola</span>, a first class student of the University of Lagos, 400 level. <span id ="welcome"><br />Welcome to my Portfolio Website </span> </div>
+            <div class="col-xs-6 rightf">I find programming, animations and graphic designs interesting. I have worked with some programming languages and some cad designs. I am good at what I do<BLOCKQUOTE><p>"Be not be slothful in business, fervent in spirit, serving the Lord"</p></BLOCKQUOTE> <p>Have a nice tour as you interact with the tabs<span class="glyphicon glyphicon-arrow-up"></span></p></div>
+          </div>
+        </div>
+      </div>  
+</div>
+
+<div data-role="page" data-dialog="true" id="contact" data-overlay-theme="b">
+  <div data-role="header">
+    <h1>Contact Me</h1>
+  </div>
+
+  <div >
+    <ul class = "list-unstyled" id ="mycontact">
+    	<li><span class	="glyphicon glyphicon-earphone"></span> 234 701 048 6894<br/>&nbsp;&nbsp;234 909 551 1563</li><br/>
+    	<li><span class	="glyphicon glyphicon-envelope"></span> damola.omotuyi@gmail.com</li><br/>
+    	<li>  Follow on: <a href ="https://twitter.com/OMOTUYIO" style="text-decoration:none;">Twitter</a></li>
+    </ul> 
+  </div>
+  </div>
+<div data-role="page" id="pagetwo">
+<div id ="homepage"><a href="#pageone" data-transition="pop"><span class="glyphicon glyphicon-chevron-left"></span> Back to HomePage</a></div>
+<div id="Personal" >
+<h2>My Profile</h2>
+ <ul class="nav nav-tabs" style="max-width:100%">
+<li class="active"><a data-toggle="tab" href="#WE">Work Experience</a></li>
+<li id ="menu" class="nav nav-tabs navbar-right"><a data-toggle="tab" href="#Skills" >Skills and Achievements</a></li>
+</ul>
+<div class="tab-content">
+    <div id="WE" class="tab-pane fade in active">
+    <div class ="workrap firstpage">
+	 <p>
+	 Interest and Passion are unique qualities to good work experience. 
+
+   Programming and Electronics!. Those words sounds like wave of waters that cool the hot day to my ears. Having to sit up and think of how to solve the bugs could be tasking and still very interesting. Just a click of the solution makes the face round and cheeks flying. 
+ 
+	 </p>
+  <div id ="elecp"> 
+  <div class= "elec1">
+    <div class= "elect">   
+        <img src="Images/elec1.jpg" onmouseover="width:300px"alt="Electronics" style="width:150px;height:150px">
+    </div>
+    <div class= "elect">
+        <img src="Images/elec2.jpg" alt="Electronics" style="width:150px;height:150px">
+    </div>
+    <div class= "elect">      
+        <img src="Images/elec3.jpg" alt="Electronics" style="width:150px;height:150px">
+    </div>
+  </div>
+
+    <div class="programme">   
+      <div class="program">
+        <img src="Images/prog.jpg" alt="c#" style="width:150px;height:150px">
+    </div>
+    <div class="program">
+        <img src="Images/java.jpg" alt="java" style="width:150px;height:150px">
+    </div>
+    <div class="program">      
+        <img src="Images/html.jpg" alt="html" style="width:150px;height:150px">
+    </div>
+  </div>
+</div>
+<p>
+   As a student, I worked in my department, Systems Engineering Labs as part of a Student Research Team.</p>
+   <div class="container">
+     <div class="row">
+       <div class="col-xs-6"><a href="http://selabunilag.blogspot.com/p/c-lab.html" target="_blank"> <img src="Images/clab.jpg" alt="Electronics" style="width:300px;height:250px">
+        <p class="labtext">Computation and Simulations <br/>Lab</p></a></div>
+       <div class="col-xs-6"><a href="http://selabunilag.blogspot.com/p/r-lab.html"  target="_blank"><img src="Images/robo.jpg" alt="Electronics" style="width:300px;height:250px">
+        <p class="labtext">Robotics Lab</p></a></div>
+     </div>
+   </div>
+
+  </div>
+   <div class="workrap separate IT">
+  
+    <h1>Industrial Training</h1>
+     <div class="container ITcon" >  <img src="Images\IT.jpg" alt="Industrial Training">
+    <p>Just to step outside the boundaries of a university is a large space of business enterprise. Industrial Training is a time to learn and go outside the box.</p> <br/>
+    <p>I am currently doing my IT at <a href="http://www.slb.com" target="_blank"> Schlumberger</a>, the Largest Oilfield Services Company as an IT intern.
+    
+  </div>
+    </div>
+   </div>
+
+    <div id="Skills" class="tab-pane fade">
+     <div class="workrap firstpane" >
+     <h1>Skills</h1>
+	 <p>You may not be an expert but you are unique in your own way. Most people say to themselves that 'I don't know so much' or 'I don't have that special skill'. But may I ask a question, what have you done with d little you have? Dumbfounded! Have an answer!. Its a rhetorical question. </p>
+   <div class="container" id ="myskills">
+   <div class="row">
+     <div class="col-md-3"><div class="wrap"> <img src="Images/oop.jpg" alt="c# MatLab"></div>
+           <p>Object-Oriented Programming- C#, MatLab etc </p></div>
+     <div class="col-md-3"><img src="Images/webdesign.jpg" alt="Web Design and Development">
+           <p>Web Design and Development</p></div>
+     <div class="col-md-3"><img src="Images/system.jpg" alt="System Hardware Management">
+           <p>System Hardware Management</p></div>
+     <div class="col-md-3"><img src="Images/desk.jpg" alt="Desktop Publishing">
+           <p>Desktop Publishing</p></div>
+   </div>
+   <div class="row">
+     <div class="col-md-3"><img src="Images/manage.jpg" alt="Management Skill">
+           <p>Management Skill</p></div>
+     <div class="col-md-3"><img src="Images/team.jpg" alt="Good Team Player">
+           <p>Good Team Player</p></div>
+     <div class="col-md-3"><img src="Images/elect.jpg" alt="Electronics Simulation">
+           <p>Electronics Simulation</p></div>
+     <div class="col-md-3"><img src="Images/cad.jpg" alt="Graphics and CAD Modeling">
+           <p>Graphics and CAD Modeling</p></div>
+   </div>    
+   </div>
+   </div>
+   <div class="workrap separate">
+    <div id ="ach">
+      <h1>Achievements</h1>
+      <p>A little extra can make a difference!!!</p>
+      <div class="container" id ="achieve">
+      <div class="row">
+      <div class="col-md-4" class="text"><strong>My PortFolio Website</strong><br/><br/><br/>
+      <img src="Images/website.png"></div>
+      <div class="col-md-4"><strong>Best Graduating Student(Primary and Secondary School)</strong><img src="Images/student.jpg"></div>
+      <div class="col-md-4" class="text" ><strong>Best C.G.P.A(University of Lagos)</strong><br/><br/><img src="Images/cgpa.jpg"></div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="workrap separate">
+    <div id = "proj">
+      <h1>Projects</h1>
+      <p>Having a tool without being used is as good as dead. <strong> <span id = "emp">Reviving and Rebranding some projects for commercial use was a wonderful experience!!!</span></strong></p>
+      <div class="container" id ="Projects" >
+      <div class="row">
+      <div class="col-md-6" id ="fleft"><img src="Images/robotcar.jpg" alt="robot car">
+          <p>An Obstacle Avoidance Robot Car</p>
+        </div>
+      <div class="col-md-6" id ="fright"><img src="Images/watersensor.jpg" alt="Self-Triggered Wireless Liquid Level Monitoring System">
+          <p>Self-Triggered Wireless Liquid Level Monitoring System</p>
+        </div>
+        </div>
+       
+         <div class="row" >
+          <div class="col-md-6" id ="fleft"><img src="Images/traffic.jpg" alt="Traffic Control System With Sensors">
+          <p>Traffic Control System With Sensors</p>
+          </div>
+          <div class="col-md-6" id ="fright"><img src="Images/voice.png" alt="Voice-Based Wireless Home Automation System">
+            <p>Voice-Based Wireless Home Automation System</p>
+          </div>
+         </div>
+        </div>
+		</div>
+	</div>
+	</div>
+    </div>
+    </div>
+     </div>
+
+</body>
+</html>
